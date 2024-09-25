@@ -1,25 +1,24 @@
 attribute_column_names = {
-    "Attribute0": "checking_status",       # Status of existing checking account
-    "Attribute1": "duration",              # Duration
-    "Attribute2": "credit_history",        # Credit history
-    "Attribute3": "purpose",               # Purpose
-    "Attribute4": "credit_amount",         # Credit amount
-    "Attribute5": "savings",               # Savings account/bonds
-    "Attribute6": "employment",            # Present employment since
-    "Attribute7": "installment_rate",      # Installment rate in percentage of disposable income
-    "Attribute8": "personal_status_sex",   # Personal status and sex
-    "Attribute9": "other_debtors",         # Other debtors / guarantors
-    "Attribute10": "residence_since",      # Present residence since
-    "Attribute11": "property",             # Property
-    "Attribute12": "age",                  # Age
-    "Attribute13": "installment_plans",    # Other installment plans
-    "Attribute14": "housing",              # Housing
-    "Attribute15": "existing_credits",     # Number of existing credits at this bank
-    "Attribute16": "job",                  # Job
-    "Attribute17": "num_dependents",       # Number of people being liable to provide maintenance for
-    "Attribute18": "telephone",            # Telephone
-    "Attribute19": "foreign_worker",       # Foreign worker
-    "Attribute20": "risk"                  # 1 = Good, 2 = Bad
+    "Attribute1": "checking_status",       # Status of existing checking account
+    "Attribute2": "duration",              # Duration
+    "Attribute3": "credit_history",        # Credit history
+    "Attribute4": "purpose",               # Purpose
+    "Attribute5": "credit_amount",         # Credit amount
+    "Attribute6": "savings",               # Savings account/bonds
+    "Attribute7": "employment",            # Present employment since
+    "Attribute8": "installment_rate",      # Installment rate in percentage of disposable income
+    "Attribute9": "personal_status_sex",   # Personal status and sex
+    "Attribute10": "other_debtors",         # Other debtors / guarantors
+    "Attribute11": "residence_since",      # Present residence since
+    "Attribute12": "property",             # Property
+    "Attribute13": "age",                  # Age
+    "Attribute14": "installment_plans",    # Other installment plans
+    "Attribute15": "housing",              # Housing
+    "Attribute16": "existing_credits",     # Number of existing credits at this bank
+    "Attribute17": "job",                  # Job
+    "Attribute18": "num_dependents",       # Number of people being liable to provide maintenance for
+    "Attribute19": "telephone",            # Telephone
+    "Attribute20": "foreign_worker",       # Foreign worker
     }
 
 # Define dictionaries for each qualitative attribute
@@ -106,5 +105,3 @@ attribute_mappings = {
     "A201": "yes",
     "A202": "no",
 }
-
-print(attribute_column_names["Attribute0"])
